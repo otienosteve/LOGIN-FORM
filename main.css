@@ -1,0 +1,150 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #00AAFF ,#00FF6C );
+    font-family: Impact, Haettenschweiler, sans-serif;
+    height:1700px;
+  
+}
+#details{
+
+
+    position: absolute;
+    background:linear-gradient(to left, rgba(218, 214, 6, 0.863), rgba(198, 231, 9, 0.836));
+    top:20%;
+    bottom:20%;
+    left:33%;
+    right:33%;
+    width:30%;
+    height:70%;
+    top:100px;
+    border-radius: 10%;
+    transition: .9s;
+    
+}
+#details:hover {
+background: linear-gradient(to right, rgb(221, 171, 64) rgb(192, 216, 56));
+border: solid  rgba(212, 141, 9, 0.719)3px; 
+cursor: pointer;
+margin-top: 1%;
+width:31%;
+height:67%;
+
+}
+#logo{
+position: absolute;
+top:-13%;
+bottom:30%;
+
+align-content: center;
+height:30%;
+width:90%;
+
+
+}
+#logo img{
+
+    height: 92%;
+    width:33%;
+    position: absolute;
+    top:2%;
+    right:38%;
+    left: 38%;
+    border-radius: 70%;
+    border: solid rgba(212, 141, 9, 0.719) 2px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#inputsec{
+    position: absolute;
+    top:27%;
+    bottom:30%;
+    left:7%;
+    right:7%;
+    height:67%;
+   
+    box-sizing: border-box;
+    margin:4px auto 4px auto;
+}
+input{
+    padding:2% 10% 2% 10%;
+    margin: 10% 10% 2% 10%;
+    width:60%;
+    height:20%;
+    border: solid rgba(212, 141, 9, 0.719) 3px;
+    border-radius: 8px;
+   
+}
+#head{
+
+    position: absolute;
+    top:22%;
+
+    bottom:40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+
+}
+h4{
+    color:rgba(58, 38, 2, 0.719);
+    font-size: 100%;
+    font-style: italic;
+    font-family: tahoma;
+    
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    top:17%;
+    left:35%;
+    right:25%;
+    
+    
+    
+
+}
+
+button{
+    color:rgb(12, 12, 11);
+    background:linear-gradient(to right, rgb(63, 143, 175), rgba(53, 132, 235, 0.856));
+    font-family: Impact, sans-serif;
+    border: none;
+    width:34%;
+    position:absolute;
+    left:30%;
+    bottom:-48%;
+    height:20%;
+    font-weight: bold;
+
+    font-size: 70%;
+    cursor: pointer;
+}
+#btn {
+
+position: absolute;
+bottom:-70%;
+width: 30%;
+height:13%;
+top:63%;
+border-radius: 10px;
+left:34%;
+right:34%;
+padding: 2px 4px 2px 4px;
+}
+#top{
+
+
+    position: fixed;
+    bottom:3px;
+    right:0;
+    
+}
+#top,img{
+
+   height:40px;
+   width:40px;
+   
+}
